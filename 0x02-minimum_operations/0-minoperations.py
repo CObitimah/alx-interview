@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 def minOperations(n):
     """
-    Calculates the fewest number of operations
-    needed to reach exactly n H characters
-    using only Copy All and Paste operations.
+    Calculates the fewest number of operations needed to reach
+exactly n H characters
+using only Copy All and Paste operations.
 
     Args:
         n (int): The number of H characters needed
 
     Returns:
-        int: The minimum number of operations to reach
-        n H characters, or 0 if impossible
+        int: The minimum number of operations to reach n
+H characters, or 0 if impossible
     """
     if n <= 1:
         return 0
